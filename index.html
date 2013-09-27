@@ -15,12 +15,27 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
 
     <!-- Custom CSS -->
+    <link href="css/fullcalendar.min.css" rel="stylesheet" charset="utf-8" type="text/css">
     <link href="css/styles.css" rel="stylesheet" charset="utf-8" type="text/css">
     <link href="css/fonts.css" rel="stylesheet" charset="utf-8" type="text/css">
+
+    <!-- Custom JS -->
+    <script type="text/javascript" src="js/fullcalendar.js"></script>
+    <script type="text/javascript" src="js/gcal.js"></script>
 
   </head>
 
   <body>
+    <script type='text/javascript'>
+
+    $(document).ready(function() {
+        $('#calendar').fullCalendar({
+            events: 'http://www.google.com/URL HERE/'
+        });
+    });
+
+    </script>
+
     <div class="header-image">
       <div class="headline">
         <div class="container">
@@ -73,6 +88,9 @@
         <h2 class="featurette-heading">GET PLUGGED IN<br/><span class="text-muted">AND BECOME A ROCK STAR</span></h2>
         <p class="lead">If you want to meet kick ass people and build cool shit, come to some of our events. Whether you're a seasoned pro or
         just getting your feet wet with programming, Purdue Hackers is a great way to grow as a hacker.</p>
+
+
+
       </div>
 
       <!-- /END THE FEATURETTES -->
