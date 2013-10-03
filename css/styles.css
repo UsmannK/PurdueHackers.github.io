@@ -13,6 +13,7 @@
 
 .headline > .container > h1, h2 {
 	font-family: 'arvil_sansregular';
+	color:black;
 }
 
 .headline > .container > h1 {
@@ -21,7 +22,7 @@
 
 .headline > .container > h2 {
 	margin-top: -15px;
-	font-size: 55px;
+	font-size: 72px;
 }
 
 .featurette-divider {
